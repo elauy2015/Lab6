@@ -1,6 +1,6 @@
 <?php
 require_once("vendor/autoload.php");
-$cadena = "mongodb+srv://usermongo:LOKdTEOP9hVYCc19@cluster0.uohoiat.mongodb.net/?retryWrites=true&w=majority";
+$cadena = "mongodb+srv://usermongo:Contrasenia@cluster0.uohoiat.mongodb.net/?retryWrites=true&w=majority";
 $cliente = new MongoDB\Client($cadena);
 $conexion = $cliente->selectDataBase("Cluster0");
 
